@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+}
+.col11{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+}
+.heading{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 62px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 15%;
+    color:#47465a;
+
+}
+.heading span{
+    font-family: 'Lobster', cursive;
+    color: #07031a;
+}
+.description{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    position: relative;
+     top: 15%;
+    padding-right: 10px;
+    color: #47465a;
+    line-height: 1.5;
+}
+.description span{
+    font-weight: 700;
+    color: #07031a;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+.start-sortilizing-btn{
+    
+    background-color: #07031a;
+    text-align: center;
+    border: none;
+    border-radius: 35px;
+    padding: 13px 25px;
+    position: relative;
+    top: 28%;
+    transition: 0.3s;
+    
+}
+.start-sortilizing-btn:hover{
+    background-color: #ebecf1;
+}
+.start-sortilizing-btn:hover *{
+    color: #07031a;
+}
+
+.start-sortilizing-lnk{
+    color: white;
+    padding: 20px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3.5px;
+    transition: 0.3s;
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+
+}
+.start-sortilizing-lnk:hover{
+    text-decoration: none;
+    color: #07031a;
+}

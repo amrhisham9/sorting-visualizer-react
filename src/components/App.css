@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    min-height:80px !important;
+    height: 80px !important; 
+    padding-left: 90px;
+    padding-right: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.brand-name{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+.navs{
+    padding-top: 10px;
+    
+}
+.navigation-link{
+    margin-left: 80px !important;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+.navigation-link:hover{
+    color: #07031a !important;
+    border-color: #07031a !important;
+}
+.dropdown{
+    font-size: 20px;
+    letter-spacing: 0.9px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+    margin-left: 10px;
+}
+.start-sortilizing{
+    border-color: #07031a !important;
+    color: #07031a !important;
+}
+.dropdown a{
+    transition: 0.3s;
+}
+.dropdown:hover{
+    border-color: #07031a !important;
+}
+.dropdown a:hover{
+    color: #07031a !important;
+}
+.dropdown-item{
+    width: 165px !important;
+    text-align: center;
+    transition: 0.3s;
+}
+.dropdown-item:hover{
+    background-color: #e6e6e8 !important;
+    
+}
+.dropdown-item:focus{
+    background-color: white !important;
+    color: #07031a !important;
+}
+.dropdown-item.active,
+.dropdown-item:active{
+    background-color: white !important;
+    color: #07031a !important;
+}
+.col11{
+    position: relative;
+    top: 50%;
+}
+
+.width60{
+    width: 60px;
+}
+.margin-top{
+    text-align: center;
+    margin-top: 20px;
+}
+.color-key-div{
+    text-align: center;
+    margin-top: 10px;
+}
+.color-key-item{
+    display: inline-block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.color-key-item span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #07031a;
+    letter-spacing: 2px;
+}
+.color-key-comparing{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #00bcd4;
+    margin-right: .4rem;
+}
+.color-key-swapping{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #ffd700;
+    margin-right: .4rem;
+}
+.color-key-sorted{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #07031a;
+    margin-right: .4rem;
+}
+.color-key-red{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #c70039;
+    margin-right: .4rem;
+}
+.color-key-un-sorted{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #b1b493;
+    margin-right: .4rem;
+}
